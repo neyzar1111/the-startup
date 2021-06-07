@@ -1,2 +1,2 @@
 # Dronelivery
-* autors: Aichurok, Bob, Glen 
+*** autors: Aichurok, Bob, Glen ***
