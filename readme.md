@@ -1,4 +1,4 @@
 # Dronelivery
 ***autors: Aichurok, Bob, Glen***
 ---
-[a link](https://github.com/taillie/the-startup)
+[Dronelivery](https://github.com/taillie/the-startup)
