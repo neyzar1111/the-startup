@@ -6,10 +6,14 @@
   box-sizing: border-box;
 }
 
+
+
 h5{
   margin-top: 15px;
   font-size: 25px;
 }
+
+/*<<<<<<<<<<<<<<<<<<< header -----------------------------------------------------*/  
 .header-nav-wrap{
     display: flex;
     flex-direction: row;
@@ -47,6 +51,63 @@ h5{
     
 }
 
+
+/* sidenav mini-menu */ 
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  background-color: rgb(108, 160, 180);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #e4dede;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.side-bar{
+  display: none;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+@media screen and (max-width: 730px ){
+  .side-bar{
+    display: block;
+  }
+}
+/* sidenav-finished  mini-menu*/
+
+/* ------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .carousel-indicators {
       /* position: relative !important; */
@@ -73,6 +134,8 @@ h5{
     } 
 
 }
+
+
 
 /************ solutions*************/
 #solutions{
@@ -243,65 +306,7 @@ footer{
   height: auto;
   margin-left: 12px;
 }
-
-
-/* sidenav */
-
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 9;
-  top: 0;
-  left: 0;
-  background-color: rgb(108, 160, 180);
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #e4dede;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-.side-bar{
-  display: none;
-}
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-@media screen and (max-width: 730px ) {
-  .header-nav-wrap nav{
-    display: none;
-  }
-  .row-sol{
-    grid-template-columns: 1fr;
-  }
-  .possib-wrap{
-    flex-direction: column;
-  }
-  .p-row{
-    grid-template-columns: 1fr;
-  }
-
+@media screen and (max-width: 730px ){
   .footer-body-left{
     flex-direction: column;
     /* align-items: center; */
@@ -322,7 +327,23 @@ footer{
   .contact h4{
     margin-top: 20px;
   }
-  .side-bar{
-    display: block;
+}
+/* ----------------footer styles ends---------------------------->>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (max-width: 730px ) {
+  .header-nav-wrap nav{
+    display: none;
   }
+  .row-sol{
+    grid-template-columns: 1fr;
+  }
+  .possib-wrap{
+    flex-direction: column;
+  }
+  .p-row{
+    grid-template-columns: 1fr;
+  }
+
+ 
+  
 }
