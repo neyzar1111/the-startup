@@ -3,10 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
 /* commmon */
 :root {
   --color-links: #809ff5;
-  --color-hs: rgb(81, 152, 194);
+  --color-hs: rgb(46, 106, 141);
 }
 a{
   color:blue;
