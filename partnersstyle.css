@@ -16,27 +16,10 @@
 
 
 
-.side-bar span{
+.side-bar span {
     display: block;
     margin-top: 8px;
 }
-
-.carousel-caption {
-    bottom: 90px;
-}
-
-.carousel-indicators li {
-    width: 70px;
-    height: 10px;
-    background-color: rgb(212, 212, 212);
-}
-.carousel-indicators .active {
-    background-color: rgb(126, 126, 126);
-
-}
-
-
-/* sidenav mini-menu */
 
 .sidenav {
     height: 100%;
@@ -74,6 +57,7 @@
 .side-bar{
     display: none;
 }
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -84,8 +68,12 @@
     .side-bar{
         display: block;
     }
+    .header-nav-wrap nav {
+        display: none;
+    }
+
 }
-/* sidenav-finished  mini-menu*//* **********HEADER ENDS************** */
+/* **********HEADER ENDS************** */
 
 .container {
     padding-top: 3rem;
@@ -214,5 +202,3 @@ footer{
         margin-top: 20px;
     }
 }
-/* ----------------footer styles ends---------------------------->>>>>>>>>>>>>>>>>>>>>> */
-
