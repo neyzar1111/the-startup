@@ -144,7 +144,7 @@ body > * {
 }
 
 .card{
-    border-color: black;
+    border: 4px solid rgb(209, 209, 209);;
     height:670px;
     gap:20px;
 }
@@ -189,7 +189,12 @@ video{
 }
 .card-text-contact-container{
     margin:auto;
-    padding:10px;
+    padding-bottom:15px;
+}
+
+.btn-primary{
+    margin:auto;
+
 }
 
 
