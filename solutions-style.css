@@ -20,9 +20,6 @@
 .header-nav-wrap nav ul li{
     padding: 14px;
 }
-
-
-
 .side-bar span{
     display: block;
     margin-top: 8px;
@@ -41,7 +38,6 @@
     background-color: rgb(126, 126, 126);
 
 }
-
 
 /* sidenav mini-menu */
 
@@ -104,6 +100,7 @@
         display: none;
     }
 }
+
 /*<<<<<<<<<<<<<<<<<<< header ends --------------*/
 
 /*<<<<<<<<<<<<<<<<<<< Body--------------*/
@@ -121,6 +118,8 @@ body > * {
 
 .container-title-1{
     background-color: white;
+    padding-top:15px;
+    padding-bottom:15px;
     display:flex;
     width:100%;
     padding:30px;
@@ -128,16 +127,6 @@ body > * {
     text-align: center;
     margin:0 auto;
     display:block
-}
-
-
-.container-animated-video {
-    display:flex;
-    width:100%;
-    border:25px solid;
-    border-color:#eeeeee ;
-    background-color: white;
-
 }
 
 .row{
@@ -156,7 +145,7 @@ body > * {
 
 .card{
     border-color: black;
-    height:650px;
+    height:670px;
     gap:20px;
 }
 
@@ -173,18 +162,35 @@ body > * {
     height:150px;
 }
 
+.container-animated-video {
+    display:flex;
+    width:100%;
+    border:25px solid white;
+    background-color: white;
 
+}
 .container-animated-video-2 {
+    display:flex;
+    width:100%;
+    background-color: white;
+    background-color: #F2F2F2;
+}
+.container-animated-video-3 {
+    padding-top:40px;
     display:flex;
     width:100%;
     background-color: white;
 
 }
 video{
+    display:block;
+    margin:auto;
 
-    background-color: #F2F2F2;
 }
-
+.card-text-contact-container{
+    margin:auto;
+    padding:10px;
+}
 
 
 /* ************** Footer ********************** */
