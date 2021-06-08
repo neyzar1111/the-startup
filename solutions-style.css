@@ -104,13 +104,86 @@
         display: none;
     }
 }
-/*<<<<<<<<<<<<<<<<<<< --------------*/
+/*<<<<<<<<<<<<<<<<<<< header ends --------------*/
+
+/*<<<<<<<<<<<<<<<<<<< Body--------------*/
 
 
 
+body{
+    background-color: white;
+}
+body > * {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.container-title-1{
+    background-color: white;
+    display:flex;
+    width:100%;
+    padding:30px;
+    border:5px solid white;
+    text-align: center;
+    margin:0 auto;
+    display:block
+}
+
+
+.container-animated-video {
+    display:flex;
+    width:100%;
+    border:25px solid;
+    border-color:#eeeeee ;
+    background-color: white;
+
+}
+
+.row{
+    width:100%;
+    padding:25px;
+    padding-top:0;
+    background-color: white;
+    display:inline-block;
+
+
+}
+.col-sm-6{
+    width:500px;
+    display:inline-block;
+}
+
+.card{
+    border-color: black;
+    height:650px;
+    gap:20px;
+}
 
 
 
+.card-intro{
+    padding-top:60px;
+    height:350px;
+    border-color: black;
+
+}
+
+.card-text{
+    height:150px;
+}
+
+
+.container-animated-video-2 {
+    display:flex;
+    width:100%;
+    background-color: white;
+
+}
+video{
+
+    background-color: #F2F2F2;
+}
 
 
 
