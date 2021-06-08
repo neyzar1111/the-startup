@@ -185,6 +185,7 @@ body > * {
 video{
     display:block;
     margin:auto;
+    max-width:100%;
 
 }
 .card-text-contact-container{
