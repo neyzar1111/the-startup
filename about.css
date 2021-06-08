@@ -4,10 +4,16 @@
   box-sizing: border-box;
 }
 /* commmon */
-
+:root {
+  --color-links: #809ff5;
+  --color-hs: rgb(81, 152, 194);
+}
 a{
-  color: blue;
+  color:blue;
   text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+  color: var(--color-hs);
 }
 .header-nav-wrap {
   display: flex;
