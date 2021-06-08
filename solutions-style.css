@@ -160,6 +160,7 @@ body > * {
 
 .card-text{
     height:150px;
+    text-align: center;
 }
 
 .container-animated-video {
