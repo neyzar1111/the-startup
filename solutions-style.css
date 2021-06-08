@@ -1,20 +1,260 @@
 
+/*<<<<<<<<<<<<<<<<<<< header -----------------------------------------------------*/
+.header-nav-wrap{
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
+    justify-content: space-between;
 
+}
+.header-nav-wrap img{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+.header-nav-wrap nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.header-nav-wrap nav ul li{
+    padding: 14px;
+}
+
+
+
+.side-bar span{
+    display: block;
+    margin-top: 8px;
+}
+
+.carousel-caption {
+    bottom: 90px;
+}
+
+.carousel-indicators li {
+    width: 70px;
+    height: 10px;
+    background-color: rgb(212, 212, 212);
+}
+.carousel-indicators .active {
+    background-color: rgb(126, 126, 126);
+
+}
+
+
+/* sidenav mini-menu */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    background-color: rgb(108, 160, 180);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e4dede;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.side-bar{
+    display: none;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+@media screen and (max-width: 730px ) {
+    .side-bar {
+        display: block;
+    }
+}
+:root {
+    --color-links: #809ff5;
+    --color-hs: rgb(81, 152, 194);
+}
+*{
+    box-sizing: border-box;
+}
+@media screen and (max-width: 730px ) {
+    .header-nav-wrap nav {
+        display: none;
+    }
+}
+/*<<<<<<<<<<<<<<<<<<< header ends --------------*/
+
+/*<<<<<<<<<<<<<<<<<<< Body--------------*/
+
+
+
+body{
+    background-color: white;
+}
 body > * {
-    background: #eee;
     margin: 0 auto;
     text-align: center;
 
 }
 
-.container-header, .container-footer{
-    display:flex;
+.container-title-1{
     background-color: white;
-}
-.container-header{
+    display:flex;
     width:100%;
-    justify-content:space-between;
-    padding-bottom:20px;
-    border: 1px solid;
+    padding:30px;
+    border:5px solid white;
+    text-align: center;
+    margin:0 auto;
+    display:block
+}
+
+
+.container-animated-video {
+    display:flex;
+    width:100%;
+    border:25px solid;
+    border-color:#eeeeee ;
+    background-color: white;
 
 }
+
+.row{
+    width:100%;
+    padding:25px;
+    padding-top:0;
+    background-color: white;
+    display:inline-block;
+
+
+}
+.col-sm-6{
+    width:500px;
+    display:inline-block;
+}
+
+.card{
+    border-color: black;
+    height:650px;
+    gap:20px;
+}
+
+
+
+.card-intro{
+    padding-top:60px;
+    height:350px;
+    border-color: black;
+
+}
+
+.card-text{
+    height:150px;
+}
+
+
+.container-animated-video-2 {
+    display:flex;
+    width:100%;
+    background-color: white;
+
+}
+video{
+
+    background-color: #F2F2F2;
+}
+
+
+
+/* ************** Footer ********************** */
+footer{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.inner-footer-wrap{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-inner-row:first-child{
+    margin-top: 2em;
+    display: flex;
+    width: 100%;
+}
+.footer-body-left{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+.logo-img{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+
+}
+.f-b-r{
+    width: 40%;
+}
+.footer-body-left .space-column{
+    min-width: 20px;
+    width: 30%;
+}
+
+.footer-inner-row{
+    margin: 2em 2em;
+}
+.contact h4, .soc-media h4{
+    margin-bottom: 20px;
+}
+.soc-media a img{
+    width: 100%;
+    max-width: 40px;
+    height: auto;
+    margin-left: 12px;
+}
+@media screen and (max-width: 730px ){
+    .footer-body-left{
+        flex-direction: column;
+        /* align-items: center; */
+        margin-left: 20%;
+    }
+    .footer-inner-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .soc-media{
+        margin-top: 40px;
+        margin-left: 20%;
+
+    }
+    .soc-media a:last-child{
+        margin-top: 10px;
+    }
+    .contact h4{
+        margin-top: 20px;
+    }
+}
+/* ************** Footer ********************** */
