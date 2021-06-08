@@ -1,20 +1,108 @@
 
+/*<<<<<<<<<<<<<<<<<<< header -----------------------------------------------------*/
+.header-nav-wrap{
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
+    justify-content: space-between;
 
-body > * {
-    background: #eee;
-    margin: 0 auto;
-    text-align: center;
+}
+.header-nav-wrap img{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+.header-nav-wrap nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.header-nav-wrap nav ul li{
+    padding: 14px;
+}
+
+
+
+.side-bar span{
+    display: block;
+    margin-top: 8px;
+}
+
+.carousel-caption {
+    bottom: 90px;
+}
+
+.carousel-indicators li {
+    width: 70px;
+    height: 10px;
+    background-color: rgb(212, 212, 212);
+}
+.carousel-indicators .active {
+    background-color: rgb(126, 126, 126);
 
 }
 
-.container-header, .container-footer{
-    display:flex;
-    background-color: white;
-}
-.container-header{
-    width:100%;
-    justify-content:space-between;
-    padding-bottom:20px;
-    border: 1px solid;
 
+/* sidenav mini-menu */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    background-color: rgb(108, 160, 180);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e4dede;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.side-bar{
+    display: none;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+@media screen and (max-width: 730px ) {
+    .side-bar {
+        display: block;
+    }
+}
+:root {
+    --color-links: #809ff5;
+    --color-hs: rgb(81, 152, 194);
+}
+*{
+    box-sizing: border-box;
+}
+@media screen and (max-width: 730px ) {
+    .header-nav-wrap nav {
+        display: none;
+    }
+}
+/*<<<<<<<<<<<<<<<<<<< --------------*/
+
