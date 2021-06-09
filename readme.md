@@ -20,4 +20,4 @@ SEO (search engine optimisation)
 
 Discuss these themes in your group and come up with a shared set of requirements.
 
-You can watch the final result on www.the-startup.netlify.app
+You can watch the final result on https://the-startup.netlify.app
